@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Music and Image</title>
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="Styles/Main.css"></link>
+		<script src="Scripts/jquery.js"></script>
+	</head>
+	<body>	
+		<audio id="sub" src="Audio/Submarine.mp3"></audio>
+
+		<video id="musicVideo" autoplay loop muted>
+		  	<source src="Videos/MusicVideo.mp4" type="video/mp4">
+		</video>
+		<div id="contain">
+			<div id="background"></div>
+			<h2>Random song and image generator.</h2>
+			<input id="typeBox" placeholder="Type anything..."></input>
+			<div id="searchBtn">SEARCH</div>
+			<div id="imageResult">
+				<div id="image" alt="No Image Available">
+					<div id="clickTo">Click image<br />to expand.</div>
+				</div><br />
+				<div id="imageName"></div><br />
+				<div id="imageDescription"></div>
+			</div>
+			<div id="songResult">
+				<div id="songControl"></div>
+				<img id="playing" src="Images/Playing.png">
+				<div id="songName"></div><br />
+				<div id="songDuration"></div>
+			</div>		
+			<img id="pat" src="Images/Pattern.png">
+		</div>
+		<div id="cover">
+			<div id="bigPicture">
+		</div>
+
+		<script type="text/javascript" src="Scripts/Main.js"></script>
+	</body>
+</html>
